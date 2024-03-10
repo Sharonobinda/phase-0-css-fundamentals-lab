@@ -2,4 +2,74 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: red;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: #ddd;
+}
+
+#featured-property {
+  text-align: center;
+}
+
+#featured-property img {
+  display: block;
+  margin: 0 auto;
+}
+
+#featured-property figcaption {
+  font-size: 0.8em;
+  text-align: center;
+}
+
+#featured-property p {
+  width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#details {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f4f4f4;
+  padding: 20px 0;
+}
+
+#details div {
+  width: 25%;
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+#details a {
+  color: white;
+  text-decoration: none;
+}
+
+#details a:hover {
+  color: #ddd;
+}
+
+#details div a {
+  padding: 10px;
+  background-color: red;
+  display: block;
 }
